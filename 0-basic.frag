@@ -2,7 +2,7 @@
 precision mediump float;
 #endif
 
-uniform sampler2D   u_tex0;
+uniform sampler2D   iChannel0;
 
 uniform vec2        u_tex0Resolution;
 uniform float       u_tex0Time;
@@ -21,8 +21,7 @@ void main (void) {
     vec2 pixel = 1.0/u_resolution.xy;
     vec2 st = gl_FragCoord.xy * pixel;
     vec2 uv = v_texcoord;
-
-    color = texture2D(u_tex0, st);
+    color = texture2D(iChannel0, st);
 
     // add some colored lines representing u_tex0Time/u_tex0Duration, u_tex0CurrentFrame/u_tex0TotalFrames, and u_tex0CurrentFrame
     color.rgb = mix( color.rgb, vec3(step(st.x, u_tex0Time/ u_tex0Duration), 0.0, 0.0), step(st.y-0.02, 0.006) );
