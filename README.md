@@ -26,3 +26,4 @@ There is also a `--fullscreen` and `-w/-h` options to set the size. Use `--help`
 This is live-coding, so you can edit & save any shader to update what it shows.
 
 ![1-vhs1](examples/1-vhs1.png)
+![2-zxspectrum](https://media.giphy.com/media/TO28pqlcVRSjMCiKDk/giphy.gif)
