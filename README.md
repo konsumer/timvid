@@ -27,3 +27,11 @@ This is live-coding, so you can edit & save any shader to update what it shows.
 
 ![1-vhs1](examples/1-vhs1.png)
 ![2-zxspectrum](https://media.giphy.com/media/TO28pqlcVRSjMCiKDk/giphy.gif)
+
+## todo
+
+these are some I might like to port:
+
+- https://www.shadertoy.com/view/lsfGD2
+- https://www.shadertoy.com/view/4dXBW2
+- https://www.shadertoy.com/view/XtSGRG
