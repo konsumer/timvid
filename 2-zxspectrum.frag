@@ -1,5 +1,7 @@
 // adapted from https://www.shadertoy.com/view/XsfcD8
 
+// settings - adjust these to tune
+
 // adjust input camera gamma
 #define CAMPOW 1.0
 
@@ -12,6 +14,10 @@
 
 // dither amount, 0 to 1
 #define DITHER 1.0
+
+#ifdef GL_ES
+precision mediump float;
+#endif
 
 uniform vec2 u_resolution;
 uniform sampler2D u_tex0;
